@@ -3,16 +3,13 @@ name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 
 
-
-
 combined_name= name1 + name2
 lower_case_name= combined_name.lower()
 
-####  true Love
-a=lower_case_name.count("t")
-b=lower_case_name.count("r")
-c=lower_case_name.count("u")
-d=lower_case_name.count("e")
+a= lower_case_name.count("t")
+b= lower_case_name.count("r")
+c= lower_case_name.count("u")
+d= lower_case_name.count("e")
 
 first_digit= a+b+c+d
 
